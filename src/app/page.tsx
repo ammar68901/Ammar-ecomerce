@@ -41,10 +41,8 @@ export default function Home() {
           <Heading heading={"Featured Products"} />
         </div>
         <div className="flex flex-wrap w-[100%] items-center justify-center gap-20">
-          <div><Sticker src="/Assets/pic17.png" /></div>
-          <div><Sticker src="/Assets/img2.png" /></div>
-          <div><Sticker src="/Assets/img3.png" /></div>
-          <div><Sticker src="/Assets/pic16.png" /></div>
+          <div><Sticker /></div>
+          
         </div>
       </div>
 
@@ -64,14 +62,9 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-20 mb-12">
-          <Btn btnpic="/Assets/pic4.png" />
-          <Btn btnpic="/Assets/pic5.png" />
-          <Btn btnpic="/Assets/pic6.png" />
-          <Btn btnpic="/Assets/pic7.png" />
-          <Btn btnpic="/Assets/pic8.png" />
-          <Btn btnpic="/Assets/pic9.png" />
-        </div>
+       
+          <Btn />
+          
 
         <div className="w-[100%] text-center">
           <Heading heading="What Shopex Offer!" />
@@ -94,11 +87,9 @@ export default function Home() {
           <Heading heading="Trending Products" />
         </div>
         <div className="flex flex-wrap justify-center gap-12 mb-6">
-          <Sticker src="/Assets/pic18.png" />
-          <Sticker src="/Assets/pic15.png" />
-          <Sticker src="/Assets/pic16.png" />
-          <Sticker src="/Assets/pic17.png" />
         </div>
+          <Sticker/>
+          
 
         <div className="flex flex-col items-center mb-5">
           <Heading heading="Discount-Item" />
@@ -118,13 +109,9 @@ export default function Home() {
         <div className="w-[100%] text-center">
           <Heading heading="Top Categaries" />
         </div>
-          <div className="flex flex-wrap justify-center gap-8 mb-5">
-               
-                     <Btn3 btnpic="/Assets/sofa7.jpegnp"/>
-                     <Btn3 btnpic="/Assets/sofa9.webp"/>
-                     <Btn3 btnpic="/Assets/pic22.png"/>
-                     <Btn3 btnpic="/Assets/sofa8.jpeg"/>
-            </div>
+         
+                     <Btn3 />
+                    
              
       <div className="w-[100%] h-[45vh] border border-gray-500 relative mb-6">
   <Image

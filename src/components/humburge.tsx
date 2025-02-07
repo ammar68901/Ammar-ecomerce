@@ -6,9 +6,9 @@ export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div className="">
       {/* Hamburger Button */}
-      <div className="hidden max-800:block">
+      <div className="hidden max-800:block ">
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="flex flex-col space-y-1.5 w-8 h-8 justify-center items-center"
@@ -23,7 +23,7 @@ export default function HamburgerMenu() {
       <div
         className={`fixed top-0 left-0 h-full w-[70%] bg-white shadow-lg transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out`}
+        } transition-transform duration-300 ease-in-out z-50`}
       >
         <nav className="p-4 space-y-4">
           <Link href="/" className="block text-gray-800 font-semibold">Home</Link>
